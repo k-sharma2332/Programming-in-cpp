@@ -26,7 +26,7 @@
 using namespace std;
 int main()
 {
-    int arr[5] = {4, 2, 2, 4, 7};
+    int arr[5] = {4, 2, 2, 3, 4};
     int n = 5;
     for (int i = 0; i < n; i++)
     {
