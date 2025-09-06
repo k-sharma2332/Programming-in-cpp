@@ -47,7 +47,7 @@ int main(){
         }
     }
     if(flag==false){
-        cout<<"Element which are first non-reported: "<<v[i];
+        cout<<"Element which are first non-repeating: "<<v[i];
         break;
     }
 }
