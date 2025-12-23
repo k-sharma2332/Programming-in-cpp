@@ -1,14 +1,14 @@
-//: Write a function to print squares of first n natural numbers, taking n as argument to the function.
+//: Write a function that takes the radius of a circle as an argument and returns its area.
 #include<iostream>
 using namespace std;
-int sqrt(int n){
-    int sqrt = n*n;
-    return sqrt;
+int area(int r){
+    int pi = 3.14;
+    int area = 2*pi*r;
+    return area;
 }
-
 int main(){
-    int n;
-    cout<<"Enter n: ";
-    cin>>n;
-    cout<<sqrt(n);
+    int r;
+    cout<<"enter radius: ";
+    cin>>r;
+    cout<<area(r);
 }
