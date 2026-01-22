@@ -1,3 +1,1 @@
-for(int ele : arr){
-        cout<<ele<" ";
-    }
+#include<iostream>
